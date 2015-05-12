@@ -21,6 +21,11 @@
 		056E1B8D1B0238F00059F105 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6F1B0238F00059F105 /* UIKit.framework */; };
 		056E1B951B0238F00059F105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056E1B931B0238F00059F105 /* InfoPlist.strings */; };
 		056E1B971B0238F00059F105 /* SalaryCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1B961B0238F00059F105 /* SalaryCalculatorTests.m */; };
+		056E1BA81B0239420059F105 /* LUMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1BA11B0239420059F105 /* LUMainViewController.m */; };
+		056E1BA91B0239420059F105 /* LUResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1BA31B0239420059F105 /* LUResultViewController.m */; };
+		056E1BAA1B0239420059F105 /* LUSalaryCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1BA51B0239420059F105 /* LUSalaryCalculator.m */; };
+		056E1BAB1B0239420059F105 /* LUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1BA71B0239420059F105 /* LUSettingViewController.m */; };
+		056E1BAD1B0239540059F105 /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 056E1BAC1B0239540059F105 /* setting.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		056E1B921B0238F00059F105 /* SalaryCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalaryCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		056E1B941B0238F00059F105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		056E1B961B0238F00059F105 /* SalaryCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryCalculatorTests.m; sourceTree = "<group>"; };
+		056E1BA01B0239420059F105 /* LUMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMainViewController.h; sourceTree = "<group>"; };
+		056E1BA11B0239420059F105 /* LUMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMainViewController.m; sourceTree = "<group>"; };
+		056E1BA21B0239420059F105 /* LUResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUResultViewController.h; sourceTree = "<group>"; };
+		056E1BA31B0239420059F105 /* LUResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUResultViewController.m; sourceTree = "<group>"; };
+		056E1BA41B0239420059F105 /* LUSalaryCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUSalaryCalculator.h; sourceTree = "<group>"; };
+		056E1BA51B0239420059F105 /* LUSalaryCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUSalaryCalculator.m; sourceTree = "<group>"; };
+		056E1BA61B0239420059F105 /* LUSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUSettingViewController.h; sourceTree = "<group>"; };
+		056E1BA71B0239420059F105 /* LUSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUSettingViewController.m; sourceTree = "<group>"; };
+		056E1BAC1B0239540059F105 /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,14 @@
 		056E1B711B0238F00059F105 /* SalaryCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				056E1BA01B0239420059F105 /* LUMainViewController.h */,
+				056E1BA11B0239420059F105 /* LUMainViewController.m */,
+				056E1BA21B0239420059F105 /* LUResultViewController.h */,
+				056E1BA31B0239420059F105 /* LUResultViewController.m */,
+				056E1BA41B0239420059F105 /* LUSalaryCalculator.h */,
+				056E1BA51B0239420059F105 /* LUSalaryCalculator.m */,
+				056E1BA61B0239420059F105 /* LUSettingViewController.h */,
+				056E1BA71B0239420059F105 /* LUSettingViewController.m */,
 				056E1B7A1B0238F00059F105 /* LUAppDelegate.h */,
 				056E1B7B1B0238F00059F105 /* LUAppDelegate.m */,
 				056E1B7D1B0238F00059F105 /* Main.storyboard */,
@@ -126,6 +148,7 @@
 		056E1B721B0238F00059F105 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				056E1BAC1B0239540059F105 /* setting.plist */,
 				056E1B731B0238F00059F105 /* SalaryCalculator-Info.plist */,
 				056E1B741B0238F00059F105 /* InfoPlist.strings */,
 				056E1B771B0238F00059F105 /* main.m */,
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				056E1B841B0238F00059F105 /* Images.xcassets in Resources */,
+				056E1BAD1B0239540059F105 /* setting.plist in Resources */,
 				056E1B761B0238F00059F105 /* InfoPlist.strings in Resources */,
 				056E1B7F1B0238F00059F105 /* Main.storyboard in Resources */,
 			);
@@ -250,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056E1BAB1B0239420059F105 /* LUSettingViewController.m in Sources */,
+				056E1BA91B0239420059F105 /* LUResultViewController.m in Sources */,
 				056E1B781B0238F00059F105 /* main.m in Sources */,
 				056E1B7C1B0238F00059F105 /* LUAppDelegate.m in Sources */,
+				056E1BA81B0239420059F105 /* LUMainViewController.m in Sources */,
+				056E1BAA1B0239420059F105 /* LUSalaryCalculator.m in Sources */,
 				056E1B821B0238F00059F105 /* LUViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
