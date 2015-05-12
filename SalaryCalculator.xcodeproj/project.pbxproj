@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E1B6C1B0238F00059F105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6B1B0238F00059F105 /* Foundation.framework */; };
+		056E1B6E1B0238F00059F105 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6D1B0238F00059F105 /* CoreGraphics.framework */; };
+		056E1B701B0238F00059F105 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6F1B0238F00059F105 /* UIKit.framework */; };
+		056E1B761B0238F00059F105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056E1B741B0238F00059F105 /* InfoPlist.strings */; };
+		056E1B781B0238F00059F105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1B771B0238F00059F105 /* main.m */; };
+		056E1B7C1B0238F00059F105 /* LUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1B7B1B0238F00059F105 /* LUAppDelegate.m */; };
+		056E1B7F1B0238F00059F105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E1B7D1B0238F00059F105 /* Main.storyboard */; };
+		056E1B821B0238F00059F105 /* LUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1B811B0238F00059F105 /* LUViewController.m */; };
+		056E1B841B0238F00059F105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E1B831B0238F00059F105 /* Images.xcassets */; };
+		056E1B8B1B0238F00059F105 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B8A1B0238F00059F105 /* XCTest.framework */; };
+		056E1B8C1B0238F00059F105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6B1B0238F00059F105 /* Foundation.framework */; };
+		056E1B8D1B0238F00059F105 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056E1B6F1B0238F00059F105 /* UIKit.framework */; };
+		056E1B951B0238F00059F105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056E1B931B0238F00059F105 /* InfoPlist.strings */; };
+		056E1B971B0238F00059F105 /* SalaryCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E1B961B0238F00059F105 /* SalaryCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056E1B8E1B0238F00059F105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056E1B601B0238F00059F105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056E1B671B0238F00059F105;
+			remoteInfo = SalaryCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056E1B681B0238F00059F105 /* SalaryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E1B6B1B0238F00059F105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		056E1B6D1B0238F00059F105 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		056E1B6F1B0238F00059F105 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		056E1B731B0238F00059F105 /* SalaryCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalaryCalculator-Info.plist"; sourceTree = "<group>"; };
+		056E1B751B0238F00059F105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056E1B771B0238F00059F105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056E1B791B0238F00059F105 /* SalaryCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SalaryCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		056E1B7A1B0238F00059F105 /* LUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUAppDelegate.h; sourceTree = "<group>"; };
+		056E1B7B1B0238F00059F105 /* LUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUAppDelegate.m; sourceTree = "<group>"; };
+		056E1B7E1B0238F00059F105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056E1B801B0238F00059F105 /* LUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUViewController.h; sourceTree = "<group>"; };
+		056E1B811B0238F00059F105 /* LUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUViewController.m; sourceTree = "<group>"; };
+		056E1B831B0238F00059F105 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		056E1B891B0238F00059F105 /* SalaryCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E1B8A1B0238F00059F105 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		056E1B921B0238F00059F105 /* SalaryCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalaryCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		056E1B941B0238F00059F105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056E1B961B0238F00059F105 /* SalaryCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056E1B651B0238F00059F105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B6E1B0238F00059F105 /* CoreGraphics.framework in Frameworks */,
+				056E1B701B0238F00059F105 /* UIKit.framework in Frameworks */,
+				056E1B6C1B0238F00059F105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E1B861B0238F00059F105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B8B1B0238F00059F105 /* XCTest.framework in Frameworks */,
+				056E1B8D1B0238F00059F105 /* UIKit.framework in Frameworks */,
+				056E1B8C1B0238F00059F105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056E1B5F1B0238F00059F105 = {
+			isa = PBXGroup;
+			children = (
+				056E1B711B0238F00059F105 /* SalaryCalculator */,
+				056E1B901B0238F00059F105 /* SalaryCalculatorTests */,
+				056E1B6A1B0238F00059F105 /* Frameworks */,
+				056E1B691B0238F00059F105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056E1B691B0238F00059F105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B681B0238F00059F105 /* SalaryCalculator.app */,
+				056E1B891B0238F00059F105 /* SalaryCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056E1B6A1B0238F00059F105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B6B1B0238F00059F105 /* Foundation.framework */,
+				056E1B6D1B0238F00059F105 /* CoreGraphics.framework */,
+				056E1B6F1B0238F00059F105 /* UIKit.framework */,
+				056E1B8A1B0238F00059F105 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		056E1B711B0238F00059F105 /* SalaryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B7A1B0238F00059F105 /* LUAppDelegate.h */,
+				056E1B7B1B0238F00059F105 /* LUAppDelegate.m */,
+				056E1B7D1B0238F00059F105 /* Main.storyboard */,
+				056E1B801B0238F00059F105 /* LUViewController.h */,
+				056E1B811B0238F00059F105 /* LUViewController.m */,
+				056E1B831B0238F00059F105 /* Images.xcassets */,
+				056E1B721B0238F00059F105 /* Supporting Files */,
+			);
+			path = SalaryCalculator;
+			sourceTree = "<group>";
+		};
+		056E1B721B0238F00059F105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B731B0238F00059F105 /* SalaryCalculator-Info.plist */,
+				056E1B741B0238F00059F105 /* InfoPlist.strings */,
+				056E1B771B0238F00059F105 /* main.m */,
+				056E1B791B0238F00059F105 /* SalaryCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056E1B901B0238F00059F105 /* SalaryCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B961B0238F00059F105 /* SalaryCalculatorTests.m */,
+				056E1B911B0238F00059F105 /* Supporting Files */,
+			);
+			path = SalaryCalculatorTests;
+			sourceTree = "<group>";
+		};
+		056E1B911B0238F00059F105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056E1B921B0238F00059F105 /* SalaryCalculatorTests-Info.plist */,
+				056E1B931B0238F00059F105 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056E1B671B0238F00059F105 /* SalaryCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E1B9A1B0238F00059F105 /* Build configuration list for PBXNativeTarget "SalaryCalculator" */;
+			buildPhases = (
+				056E1B641B0238F00059F105 /* Sources */,
+				056E1B651B0238F00059F105 /* Frameworks */,
+				056E1B661B0238F00059F105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalaryCalculator;
+			productName = SalaryCalculator;
+			productReference = 056E1B681B0238F00059F105 /* SalaryCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056E1B881B0238F00059F105 /* SalaryCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E1B9D1B0238F00059F105 /* Build configuration list for PBXNativeTarget "SalaryCalculatorTests" */;
+			buildPhases = (
+				056E1B851B0238F00059F105 /* Sources */,
+				056E1B861B0238F00059F105 /* Frameworks */,
+				056E1B871B0238F00059F105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056E1B8F1B0238F00059F105 /* PBXTargetDependency */,
+			);
+			name = SalaryCalculatorTests;
+			productName = SalaryCalculatorTests;
+			productReference = 056E1B891B0238F00059F105 /* SalaryCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056E1B601B0238F00059F105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lucky;
+				TargetAttributes = {
+					056E1B881B0238F00059F105 = {
+						TestTargetID = 056E1B671B0238F00059F105;
+					};
+				};
+			};
+			buildConfigurationList = 056E1B631B0238F00059F105 /* Build configuration list for PBXProject "SalaryCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056E1B5F1B0238F00059F105;
+			productRefGroup = 056E1B691B0238F00059F105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056E1B671B0238F00059F105 /* SalaryCalculator */,
+				056E1B881B0238F00059F105 /* SalaryCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056E1B661B0238F00059F105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B841B0238F00059F105 /* Images.xcassets in Resources */,
+				056E1B761B0238F00059F105 /* InfoPlist.strings in Resources */,
+				056E1B7F1B0238F00059F105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E1B871B0238F00059F105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B951B0238F00059F105 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056E1B641B0238F00059F105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B781B0238F00059F105 /* main.m in Sources */,
+				056E1B7C1B0238F00059F105 /* LUAppDelegate.m in Sources */,
+				056E1B821B0238F00059F105 /* LUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056E1B851B0238F00059F105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1B971B0238F00059F105 /* SalaryCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056E1B8F1B0238F00059F105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056E1B671B0238F00059F105 /* SalaryCalculator */;
+			targetProxy = 056E1B8E1B0238F00059F105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056E1B741B0238F00059F105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E1B751B0238F00059F105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		056E1B7D1B0238F00059F105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E1B7E1B0238F00059F105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056E1B931B0238F00059F105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E1B941B0238F00059F105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056E1B981B0238F00059F105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		056E1B991B0238F00059F105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056E1B9B1B0238F00059F105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalaryCalculator/SalaryCalculator-Prefix.pch";
+				INFOPLIST_FILE = "SalaryCalculator/SalaryCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		056E1B9C1B0238F00059F105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalaryCalculator/SalaryCalculator-Prefix.pch";
+				INFOPLIST_FILE = "SalaryCalculator/SalaryCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		056E1B9E1B0238F00059F105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SalaryCalculator.app/SalaryCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalaryCalculator/SalaryCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SalaryCalculatorTests/SalaryCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		056E1B9F1B0238F00059F105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SalaryCalculator.app/SalaryCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalaryCalculator/SalaryCalculator-Prefix.pch";
+				INFOPLIST_FILE = "SalaryCalculatorTests/SalaryCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056E1B631B0238F00059F105 /* Build configuration list for PBXProject "SalaryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E1B981B0238F00059F105 /* Debug */,
+				056E1B991B0238F00059F105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E1B9A1B0238F00059F105 /* Build configuration list for PBXNativeTarget "SalaryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E1B9B1B0238F00059F105 /* Debug */,
+				056E1B9C1B0238F00059F105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		056E1B9D1B0238F00059F105 /* Build configuration list for PBXNativeTarget "SalaryCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E1B9E1B0238F00059F105 /* Debug */,
+				056E1B9F1B0238F00059F105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056E1B601B0238F00059F105 /* Project object */;
+}
